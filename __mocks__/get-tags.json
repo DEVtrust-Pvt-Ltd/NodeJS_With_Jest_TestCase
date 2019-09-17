@@ -1,0 +1,140 @@
+{
+    "error": null,
+    "response": {
+        "statusCode": 200,
+        "body": [
+            {
+                "tagId": 56288,
+                "name": "Amazon Prime Order",
+                "color": "#CCFFFF"
+            },
+            {
+                "tagId": 54949,
+                "name": "Drop Ship",
+                "color": "#FFCC00"
+            },
+            {
+                "tagId": 56330,
+                "name": "efs",
+                "color": "#99CC00"
+            },
+            {
+                "tagId": 54220,
+                "name": "in-house",
+                "color": "#FF0000"
+            },
+            {
+                "tagId": 54682,
+                "name": "oversold",
+                "color": "#C0C0C0"
+            },
+            {
+                "tagId": 56501,
+                "name": "pending-fulfillment",
+                "color": "#FF99CC"
+            },
+            {
+                "tagId": 54221,
+                "name": "shyp-chicago",
+                "color": "#000000"
+            },
+            {
+                "tagId": 58098,
+                "name": "test",
+                "color": "#000000"
+            },
+            {
+                "tagId": 66810,
+                "name": "UPS or FedEx only!",
+                "color": "#993300"
+            }
+        ],
+        "headers": {
+            "cache-control": "no-cache",
+            "content-type": "application/json; charset=utf-8",
+            "date": "Sun, 07 Jul 2019 19:29:11 GMT",
+            "expires": "-1",
+            "pragma": "no-cache",
+            "server": "Microsoft-IIS/8.0",
+            "x-aspnet-version": "4.0.30319",
+            "x-newrelic-app-data": "PxQGVFZXCgITXFFRAAQBVV0TGhE1AwE2QgNWEVlbQFtcCxY2VANyMi0ZdgIFDE1dRBdOLl5CQzIFVkURTlZNUhxSFlIJDQ0CClwVTABNEVBVcgYiVlR+CnFWJFsAd3JESFdXXxEDPg==",
+            "x-powered-by": "ASP.NET",
+            "x-rate-limit-limit": "40",
+            "x-rate-limit-remaining": "40",
+            "x-rate-limit-reset": "48",
+            "x-shipstation-jobs": "I see you like to Hack!  You should work with us!",
+            "x-shipstation-jobs-link": "http://www.shipstation.com/careers/",
+            "content-length": "496",
+            "connection": "Close"
+        },
+        "request": {
+            "uri": {
+                "protocol": "https:",
+                "slashes": true,
+                "auth": null,
+                "host": "ssapi.shipstation.com",
+                "port": 443,
+                "hostname": "ssapi.shipstation.com",
+                "hash": null,
+                "search": null,
+                "query": null,
+                "pathname": "/accounts/listtags",
+                "path": "/accounts/listtags",
+                "href": "https://ssapi.shipstation.com/accounts/listtags"
+            },
+            "method": "GET",
+            "headers": {
+                "Accept": "application/json",
+                "Content-Type": "application/json",
+                "authorization": "Basic YWFlZmNmYWJlNzdiNGNhZmE4NDcxYTU5ZjRjNjU3YzA6MjI3NDgwNTYxNTY4NDFhMGE0NDJmNTQ3MmZjNWUzY2I="
+            }
+        }
+    },
+    "body": [
+        {
+            "tagId": 56288,
+            "name": "Amazon Prime Order",
+            "color": "#CCFFFF"
+        },
+        {
+            "tagId": 54949,
+            "name": "Drop Ship",
+            "color": "#FFCC00"
+        },
+        {
+            "tagId": 56330,
+            "name": "efs",
+            "color": "#99CC00"
+        },
+        {
+            "tagId": 54220,
+            "name": "in-house",
+            "color": "#FF0000"
+        },
+        {
+            "tagId": 54682,
+            "name": "oversold",
+            "color": "#C0C0C0"
+        },
+        {
+            "tagId": 56501,
+            "name": "pending-fulfillment",
+            "color": "#FF99CC"
+        },
+        {
+            "tagId": 54221,
+            "name": "shyp-chicago",
+            "color": "#000000"
+        },
+        {
+            "tagId": 58098,
+            "name": "test",
+            "color": "#000000"
+        },
+        {
+            "tagId": 66810,
+            "name": "UPS or FedEx only!",
+            "color": "#993300"
+        }
+    ]
+}

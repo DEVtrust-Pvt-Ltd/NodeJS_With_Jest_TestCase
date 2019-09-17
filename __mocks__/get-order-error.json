@@ -1,0 +1,45 @@
+{
+    "error": null,
+    "response": {
+        "statusCode": 404,
+        "headers": {
+            "cache-control": "no-cache",
+            "date": "Sun, 07 Jul 2019 19:44:26 GMT",
+            "expires": "-1",
+            "pragma": "no-cache",
+            "server": "Microsoft-IIS/8.0",
+            "x-aspnet-version": "4.0.30319",
+            "x-newrelic-app-data": "PxQGVFZXCgITXFFRAAQBVV0TGhE1AwE2QgNWEVlbQFtcCxY2VANyMi0ZeBMCBkpAHyMEFhUdB0hUHQYdUlRUWgNRDU4VCRgQB1QNUHQkClMhDwRVICELAhJIBwNbQlI7",
+            "x-powered-by": "ASP.NET",
+            "x-rate-limit-limit": "40",
+            "x-rate-limit-remaining": "40",
+            "x-rate-limit-reset": "34",
+            "x-shipstation-jobs": "I see you like to Hack!  You should work with us!",
+            "x-shipstation-jobs-link": "http://www.shipstation.com/careers/",
+            "content-length": "0",
+            "connection": "Close"
+        },
+        "request": {
+            "uri": {
+                "protocol": "https:",
+                "slashes": true,
+                "auth": null,
+                "host": "ssapi.shipstation.com",
+                "port": 443,
+                "hostname": "ssapi.shipstation.com",
+                "hash": null,
+                "search": null,
+                "query": null,
+                "pathname": "/orders/1234567890",
+                "path": "/orders/1234567890",
+                "href": "https://ssapi.shipstation.com/orders/1234567890"
+            },
+            "method": "GET",
+            "headers": {
+                "Accept": "application/json",
+                "Content-Type": "application/json",
+                "authorization": "Basic YWFlZmNmYWJlNzdiNGNhZmE4NDcxYTU5ZjRjNjU3YzA6MjI3NDgwNTYxNTY4NDFhMGE0NDJmNTQ3MmZjNWUzY2I="
+            }
+        }
+    }
+}

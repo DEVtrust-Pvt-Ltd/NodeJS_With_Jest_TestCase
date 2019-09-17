@@ -1,0 +1,350 @@
+{
+    "error": null,
+    "response": {
+        "statusCode": 200,
+        "body": {
+            "orderId": 549045237,
+            "orderNumber": "test",
+            "orderKey": "manual-19b137b3b94b440e9511d1d5d2976dfd",
+            "orderDate": "2019-07-04T13:27:44.8800000",
+            "createDate": "2019-07-04T13:27:44.8730000",
+            "modifyDate": "2019-07-04T13:30:05.9800000",
+            "paymentDate": "2019-07-04T13:27:44.8800000",
+            "shipByDate": null,
+            "orderStatus": "awaiting_shipment",
+            "customerId": 155829723,
+            "customerUsername": "jon@bikepretty.com",
+            "customerEmail": "jon@bikepretty.com",
+            "billTo": {
+                "name": "Jonathan Gaull",
+                "company": null,
+                "street1": null,
+                "street2": null,
+                "street3": null,
+                "city": null,
+                "state": null,
+                "postalCode": null,
+                "country": null,
+                "phone": null,
+                "residential": null,
+                "addressVerified": null
+            },
+            "shipTo": {
+                "name": "Jonathan Gaull",
+                "company": "BIKE PRETTY LLC",
+                "street1": "3425 23RD ST APT 23",
+                "street2": "",
+                "street3": null,
+                "city": "SAN FRANCISCO",
+                "state": "CA",
+                "postalCode": "94110-3049",
+                "country": "US",
+                "phone": "9085817628",
+                "residential": true,
+                "addressVerified": "Address validated successfully"
+            },
+            "items": [
+                {
+                    "orderItemId": 846743480,
+                    "lineItemKey": null,
+                    "sku": "686751115639",
+                    "name": "Straw Hat - Medium / Cover Only",
+                    "imageUrl": null,
+                    "weight": {
+                        "value": 0.64,
+                        "units": "ounces",
+                        "WeightUnits": 1
+                    },
+                    "quantity": 1,
+                    "unitPrice": 0,
+                    "taxAmount": null,
+                    "shippingAmount": null,
+                    "warehouseLocation": null,
+                    "options": [],
+                    "productId": 25648880,
+                    "fulfillmentSku": null,
+                    "adjustment": false,
+                    "upc": null,
+                    "createDate": "2019-07-04T13:27:44.88",
+                    "modifyDate": "2019-07-04T13:27:44.88"
+                },
+                {
+                    "orderItemId": 846743480,
+                    "lineItemKey": null,
+                    "sku": "686751115622",
+                    "name": "Straw Hat - Large / Cover Only",
+                    "imageUrl": null,
+                    "weight": {
+                        "value": 0.64,
+                        "units": "ounces",
+                        "WeightUnits": 1
+                    },
+                    "quantity": 1,
+                    "unitPrice": 0,
+                    "taxAmount": null,
+                    "shippingAmount": null,
+                    "warehouseLocation": null,
+                    "options": [],
+                    "productId": 25648880,
+                    "fulfillmentSku": null,
+                    "adjustment": false,
+                    "upc": null,
+                    "createDate": "2019-07-04T13:27:44.88",
+                    "modifyDate": "2019-07-04T13:27:44.88"
+                }
+            ],
+            "orderTotal": 0,
+            "amountPaid": 0,
+            "taxAmount": 0,
+            "shippingAmount": 0,
+            "customerNotes": null,
+            "internalNotes": null,
+            "gift": false,
+            "giftMessage": null,
+            "paymentMethod": null,
+            "requestedShippingService": null,
+            "carrierCode": null,
+            "serviceCode": null,
+            "packageCode": null,
+            "confirmation": "none",
+            "shipDate": null,
+            "holdUntilDate": null,
+            "weight": {
+                "value": 48,
+                "units": "ounces",
+                "WeightUnits": 1
+            },
+            "dimensions": null,
+            "insuranceOptions": {
+                "provider": null,
+                "insureShipment": false,
+                "insuredValue": 0
+            },
+            "internationalOptions": {
+                "contents": null,
+                "customsItems": null,
+                "nonDelivery": null
+            },
+            "advancedOptions": {
+                "warehouseId": 195852,
+                "nonMachinable": false,
+                "saturdayDelivery": false,
+                "containsAlcohol": false,
+                "mergedOrSplit": true,
+                "mergedIds": [
+                    549045491
+                ],
+                "parentId": null,
+                "storeId": 75341,
+                "customField1": null,
+                "customField2": null,
+                "customField3": null,
+                "source": null,
+                "billToParty": null,
+                "billToAccount": null,
+                "billToPostalCode": null,
+                "billToCountryCode": null,
+                "billToMyOtherAccount": null
+            },
+            "tagIds":[
+                58098
+            ],
+            "userId": null,
+            "externallyFulfilled": false,
+            "externallyFulfilledBy": null,
+            "labelMessages": null
+        },
+        "headers": {
+            "cache-control": "no-cache",
+            "content-type": "application/json; charset=utf-8",
+            "date": "Sun, 07 Jul 2019 19:43:19 GMT",
+            "expires": "-1",
+            "pragma": "no-cache",
+            "server": "Microsoft-IIS/8.0",
+            "x-aspnet-version": "4.0.30319",
+            "x-newrelic-app-data": "PxQGVFZXCgITXFFRAAQBVV0TGhE1AwE2QgNWEVlbQFtcCxY2VANyMi0ZeBMCBkpAHyMEFhUdB0hUHQYdUlBWVQlSD04VCRgQAicLJAdVdyMgBQVTUFQNAhJIBwNbQlI7",
+            "x-powered-by": "ASP.NET",
+            "x-rate-limit-limit": "40",
+            "x-rate-limit-remaining": "39",
+            "x-rate-limit-reset": "41",
+            "x-shipstation-jobs": "I see you like to Hack!  You should work with us!",
+            "x-shipstation-jobs-link": "http://www.shipstation.com/careers/",
+            "content-length": "2427",
+            "connection": "Close"
+        },
+        "request": {
+            "uri": {
+                "protocol": "https:",
+                "slashes": true,
+                "auth": null,
+                "host": "ssapi.shipstation.com",
+                "port": 443,
+                "hostname": "ssapi.shipstation.com",
+                "hash": null,
+                "search": null,
+                "query": null,
+                "pathname": "/orders/549045237",
+                "path": "/orders/549045237",
+                "href": "https://ssapi.shipstation.com/orders/549045237"
+            },
+            "method": "GET",
+            "headers": {
+                "Accept": "application/json",
+                "Content-Type": "application/json",
+                "authorization": "Basic YWFlZmNmYWJlNzdiNGNhZmE4NDcxYTU5ZjRjNjU3YzA6MjI3NDgwNTYxNTY4NDFhMGE0NDJmNTQ3MmZjNWUzY2I="
+            }
+        }
+    },
+    "body": {
+        "orderId": 549045237,
+        "orderNumber": "test",
+        "orderKey": "manual-19b137b3b94b440e9511d1d5d2976dfd",
+        "orderDate": "2019-07-04T13:27:44.8800000",
+        "createDate": "2019-07-04T13:27:44.8730000",
+        "modifyDate": "2019-07-04T13:30:05.9800000",
+        "paymentDate": "2019-07-04T13:27:44.8800000",
+        "shipByDate": null,
+        "orderStatus": "awaiting_shipment",
+        "customerId": 155829723,
+        "customerUsername": "jon@bikepretty.com",
+        "customerEmail": "jon@bikepretty.com",
+        "billTo": {
+            "name": "Jonathan Gaull",
+            "company": null,
+            "street1": null,
+            "street2": null,
+            "street3": null,
+            "city": null,
+            "state": null,
+            "postalCode": null,
+            "country": null,
+            "phone": null,
+            "residential": null,
+            "addressVerified": null
+        },
+        "shipTo": {
+            "name": "Jonathan Gaull",
+            "company": "BIKE PRETTY LLC",
+            "street1": "3425 23RD ST APT 23",
+            "street2": "",
+            "street3": null,
+            "city": "SAN FRANCISCO",
+            "state": "CA",
+            "postalCode": "94110-3049",
+            "country": "US",
+            "phone": "9085817628",
+            "residential": true,
+            "addressVerified": "Address validated successfully"
+        },
+        "items": [
+            {
+                "orderItemId": 846743480,
+                "lineItemKey": null,
+                "sku": "686751115639",
+                "name": "Straw Hat - Medium / Cover Only",
+                "imageUrl": null,
+                "weight": {
+                    "value": 0.64,
+                    "units": "ounces",
+                    "WeightUnits": 1
+                },
+                "quantity": 1,
+                "unitPrice": 0,
+                "taxAmount": null,
+                "shippingAmount": null,
+                "warehouseLocation": null,
+                "options": [],
+                "productId": 25648880,
+                "fulfillmentSku": null,
+                "adjustment": false,
+                "upc": null,
+                "createDate": "2019-07-04T13:27:44.88",
+                "modifyDate": "2019-07-04T13:27:44.88"
+            },
+            {
+                "orderItemId": 846743480,
+                "lineItemKey": null,
+                "sku": "686751115622",
+                "name": "Straw Hat - Large / Cover Only",
+                "imageUrl": null,
+                "weight": {
+                    "value": 0.64,
+                    "units": "ounces",
+                    "WeightUnits": 1
+                },
+                "quantity": 1,
+                "unitPrice": 0,
+                "taxAmount": null,
+                "shippingAmount": null,
+                "warehouseLocation": null,
+                "options": [],
+                "productId": 25648880,
+                "fulfillmentSku": null,
+                "adjustment": false,
+                "upc": null,
+                "createDate": "2019-07-04T13:27:44.88",
+                "modifyDate": "2019-07-04T13:27:44.88"
+            }
+        ],
+        "orderTotal": 0,
+        "amountPaid": 0,
+        "taxAmount": 0,
+        "shippingAmount": 0,
+        "customerNotes": null,
+        "internalNotes": null,
+        "gift": false,
+        "giftMessage": null,
+        "paymentMethod": null,
+        "requestedShippingService": null,
+        "carrierCode": null,
+        "serviceCode": null,
+        "packageCode": null,
+        "confirmation": "none",
+        "shipDate": null,
+        "holdUntilDate": null,
+        "weight": {
+            "value": 48,
+            "units": "ounces",
+            "WeightUnits": 1
+        },
+        "dimensions": null,
+        "insuranceOptions": {
+            "provider": null,
+            "insureShipment": false,
+            "insuredValue": 0
+        },
+        "internationalOptions": {
+            "contents": null,
+            "customsItems": null,
+            "nonDelivery": null
+        },
+        "advancedOptions": {
+            "warehouseId": 195852,
+            "nonMachinable": false,
+            "saturdayDelivery": false,
+            "containsAlcohol": false,
+            "mergedOrSplit": true,
+            "mergedIds": [
+                549045491
+            ],
+            "parentId": null,
+            "storeId": 75341,
+            "customField1": null,
+            "customField2": null,
+            "customField3": null,
+            "source": null,
+            "billToParty": null,
+            "billToAccount": null,
+            "billToPostalCode": null,
+            "billToCountryCode": null,
+            "billToMyOtherAccount": null
+        },
+        "tagIds":[
+            58098
+        ],
+        "userId": null,
+        "externallyFulfilled": false,
+        "externallyFulfilledBy": null,
+        "labelMessages": null
+    }
+}
